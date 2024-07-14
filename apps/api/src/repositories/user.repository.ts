@@ -13,17 +13,14 @@ export class UserRepository {
     } else {
       whereCondition = { ...identifier };
     }
-
     return await prisma.user.findUnique({
       where: whereCondition,
       include: { point: true },
     });
   }
-
   static async createUser(request: RegisterRequest) {
     return await prisma.user.create({ data: request });
   }
-
   static async getAdminEvents(id: number, query: AdminEventQuery) {
     return await prisma.user.findUnique({
       where: { id },
@@ -38,7 +35,6 @@ export class UserRepository {
       },
     });
   }
-
   static async countAdminEvents(id: number, query: AdminEventQuery) {
     return await prisma.user.findUnique({
       where: { id },
