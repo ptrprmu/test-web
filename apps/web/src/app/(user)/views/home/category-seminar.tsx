@@ -53,7 +53,7 @@ const CategorySeminarSection: React.FunctionComponent<
       <div className=" mx-[20px] my-[26px] md:mx-[140px] ">
         <div className=" flex flex-col justify-between">
           <h1 className=" text-[14px] font-semibold text-white md:text-[24px]">
-            Blues
+            Rock
           </h1>
           <h1 className=" mt-[4px] text-[12px] text-white md:mt-[14px] md:text-[14px]">
             Develop Your Skills in Exclusive Workshops! 📚

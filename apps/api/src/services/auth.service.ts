@@ -12,6 +12,8 @@ import { responseWithData, responseWithoutData } from '@/utils/response';
 import { AuthValidation } from '@/validations/auth.validation';
 import { Validation } from '@/validations/validation';
 
+
+
 export class AuthService {
   static async register(request: RegisterRequest) {
     const { email, isAdmin, password, username, referralCode } =
@@ -33,7 +35,7 @@ export class AuthService {
       if (!userByReferralCode) {
         throw new ErrorResponse(400, 'Invalid referral code!');
       } else {
-        await prisma.$transaction(async (tx) => {
+        await prisma.$transaction(async (tx : any) => {
           const currentDate = new Date();
           currentDate.setMonth(currentDate.getMonth() + 3);
 
