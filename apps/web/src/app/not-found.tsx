@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import GAMBAR from "@p/public/images/not-found.png";
+import GAMBAR from "@/public/images/not-found.png";
 
 const NotFound: React.FC = () => {
   return (

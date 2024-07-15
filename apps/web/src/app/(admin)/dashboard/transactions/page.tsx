@@ -7,7 +7,7 @@ import usePagination from "@/hooks/usePagination";
 import { toast } from "sonner";
 import LoadingDashboard from "../../_components/loading";
 import { TransactionDataTable } from "../../_components/transactions/transaction-data-table";
-import { transactionColumns } from "../../_components/transactions/transaction-columns";
+import { transactionColumns } from "../../_components/transactions/transaction-colums";
 import { useAdminEventTransactions } from "@/services/admin/queries";
 
 const TransactionsPage: React.FC = () => {

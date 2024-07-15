@@ -2,7 +2,7 @@ import * as React from "react";
 import { Input } from "@/components/ui/input";
 import InputSearch from "../_components/search-bar";
 import CategoryDesktop from "./home/category-hero-desktop";
-import hero from "@p/public/images/hero.png";
+import hero from "@/public/images/hero.png";
 interface IHeroProps {}
 
 const Hero: React.FunctionComponent<IHeroProps> = (props) => {

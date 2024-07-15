@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { PlusCircle } from "lucide-react";
 import Link from "next/link";
-import { eventColumns } from "../../_components/events/event-columns";
+import { eventColumns } from "../../_components/events/event-colums";
 import DashboardTemplate from "../../_components/template";
 import { EventDataTable } from "../../_components/events/event-data-table";
 import { useSearchParams } from "next/navigation";

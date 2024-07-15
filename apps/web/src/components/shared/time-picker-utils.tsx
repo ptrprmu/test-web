@@ -1,4 +1,4 @@
-**
+/**
  * regular expression to check for valid hour format (01-23)
  */
 export function isValidHour(value: string) {
